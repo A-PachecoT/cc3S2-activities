@@ -1,0 +1,75 @@
+2024-11-06 13:38:43,192 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:38:43,192 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:38:43,192 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:38:43,193 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:38:43,194 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:41:01,510 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:41:01,510 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:41:01,510 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:41:01,512 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:41:01,512 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:42:13,216 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:42:13,216 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:42:13,216 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:42:13,217 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:42:13,218 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:42:30,663 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:42:30,663 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:42:30,663 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:42:30,664 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:42:30,665 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:42:43,669 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:42:43,669 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:42:43,669 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:42:43,670 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:42:43,670 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:44:32,765 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:44:32,766 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:44:32,766 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:44:32,767 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:44:32,767 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:45:30,370 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:45:30,371 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:45:30,371 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:45:30,372 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:45:30,372 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:47:21,543 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:47:21,543 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:47:21,543 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)
+2024-11-06 13:47:21,544 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)
+2024-11-06 13:47:21,545 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)
+2024-11-06 13:49:53,846 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:49:53,846 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:49:53,846 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 13:49:53,847 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 13:49:53,848 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]
+2024-11-06 13:52:13,616 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:52:13,616 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:52:13,616 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 13:52:13,617 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 13:52:13,618 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]
+2024-11-06 13:53:32,408 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:53:32,408 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:53:32,408 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 13:53:32,409 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 13:53:32,410 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]
+2024-11-06 13:54:49,169 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:54:49,169 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:54:49,170 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 13:54:49,170 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 13:54:49,171 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]
+2024-11-06 13:55:33,948 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 13:55:33,948 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 13:55:33,948 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 13:55:33,949 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 13:55:33,950 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]
+2024-11-06 14:01:26,582 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 14:01:26,582 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 14:01:26,582 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 14:01:26,583 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 14:01:26,584 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]
+2024-11-06 14:01:35,461 - logger_personalizado - DEBUG - Mensaje de debug (solo archivo)
+2024-11-06 14:01:35,461 - logger_personalizado - INFO - Mensaje informativo (solo archivo)
+2024-11-06 14:01:35,461 - logger_personalizado - WARNING - Mensaje de advertencia (consola + archivo)[/yellow]
+2024-11-06 14:01:35,462 - logger_personalizado - ERROR - Mensaje de error (consola + archivo)[/red]
+2024-11-06 14:01:35,462 - logger_personalizado - CRITICAL - Mensaje crítico (consola + archivo)[/bold red on white]

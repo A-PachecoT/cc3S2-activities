@@ -1,0 +1,18 @@
+[
+  {
+    "marca_tiempo": "2024-11-06T14:01:36.470926+00:00",
+    "nivel": "INFO",
+    "mensaje": "Mensaje de prueba de logging avanzado",
+    "modulo": "main",
+    "funcion": "advanced_logging_demo",
+    "linea": 263
+  },
+  {
+    "marca_tiempo": "2024-11-06T14:01:36.472508+00:00",
+    "nivel": "ERROR",
+    "mensaje": "Error con contexto completo",
+    "modulo": "main",
+    "funcion": "advanced_logging_demo",
+    "linea": 264
+  }
+]
