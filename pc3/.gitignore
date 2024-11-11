@@ -1,0 +1,5 @@
+# Pycache
+__pycache__/
+
+# Pytest
+.pytest_cache/
