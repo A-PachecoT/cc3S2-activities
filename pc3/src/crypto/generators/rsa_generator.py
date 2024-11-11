@@ -9,6 +9,7 @@ from math import gcd
 
 class RSAGenerator(CryptoGenerator):
     """Implementación del generador de claves RSA
+    
     Basado en https://www.askpython.com/python/examples/rsa-algorithm-in-python
     De acuerdo al artículo, el algoritmo para RSA es el siguiente:
     1. Select 2 prime numbers, preferably large, p and q.
@@ -19,7 +20,8 @@ class RSAGenerator(CryptoGenerator):
     """
     
     def __init__(self, valid_exponents=None, min_key_size=2048):
-        self._valid_exponents = valid_exponents
+        # Exponentes públicos comunes y seguros por defecto
+        self._valid_exponents = valid_exponents or {3, 5, 17, 257, 65537}
         self._min_key_size = min_key_size
 
     def generate_key_pair(self, key_size: int) -> KeyPair:
