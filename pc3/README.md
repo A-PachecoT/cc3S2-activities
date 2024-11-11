@@ -20,6 +20,10 @@
 
 ## Estrategia de Desarrollo
 
+### Fase 0: Preparación del Entorno
+
+Primero inicié el .devcontainer; me basé en el devcontainer.json y el Dockerfile de la clase; también traje el requirements.txt que usé para el laboratorio de testing de la semana 10. Tengo problemas para que funcione el pegar imágenes en el markdown dentro del contenedor y por cuestiones de tiempo no pude solucionarlos; por ello, al menos al inicio, no podré mostrar capturas de pantalla.
+
 ### Fase 1: Análisis Inicial y Estructura del Proyecto
 
 Al analizar los requisitos de la práctica, noté que tanto la Parte 1 (Implementación RSA) como la Parte 2 (Sistema de cifrado de base de datos) comparten varios componentes y patrones de diseño similares. Por esta razón, decidí desarrollar ambas partes simultáneamente, aprovechando la reutilización de código y manteniendo una arquitectura coherente.
@@ -33,20 +37,20 @@ src/
 │   ├── __init__.py
 │   └── interfaces/
 │       ├── __init__.py
-│       ├── crypto_generator.py     
-│       ├── crypto_strategy.py       
-│       ├── database.py              
-│       └── key_manager.py          
+│       ├── crypto_generator.py
+│       ├── crypto_strategy.py
+│       ├── database.py
+│       └── key_manager.py
 │
 ├── crypto/
 │   ├── __init__.py
 │   ├── generators/
 │   │   ├── __init__.py
-│   │   └── rsa_generator.py       
+│   │   └── rsa_generator.py
 │   └── strategies/
 │       ├── __init__.py
-│       ├── aes_strategy.py        
-│       └── rsa_strategy.py        
+│       ├── aes_strategy.py
+│       └── rsa_strategy.py
 │
 ├── database/
 │   ├── __init__.py
@@ -55,7 +59,7 @@ src/
 │   │   └── encrypted_data_repository.py
 │   └── implementations/
 │       ├── __init__.py
-│       └── memory_database.py     
+│       └── memory_database.py
 │
 ├── models/
 │   ├── __init__.py
@@ -64,12 +68,12 @@ src/
 │
 ├── services/
 │   ├── __init__.py
-│   ├── encryption_service.py      
-│   └── key_management_service.py   
+│   ├── encryption_service.py
+│   └── key_management_service.py
 │
 └── utils/
     ├── __init__.py
-    └── exceptions.py               
+    └── exceptions.py
 
 tests/
 ├── __init__.py
@@ -88,7 +92,7 @@ tests/
 │       ├── test_encryption_service.py
 │       └── test_key_management.py
 │
-└── conftest.py                     
+└── conftest.py
 ```
 
 Esta estructura fue diseñada considerando:
@@ -98,4 +102,6 @@ Esta estructura fue diseñada considerando:
 2. **Organización Modular**: Cada componente (crypto, database, services) tiene su propio espacio y está organizado según su responsabilidad.
 
 3. **Testing**: De momento solo se contemplan las pruebas unitarias, pero se ha dejado espacio para futuras pruebas de integración.
+
+Puede que luego me de cuenta de cambios en la estructura, los comentaré aquí si es necesario.
 
