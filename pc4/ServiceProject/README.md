@@ -30,3 +30,33 @@ git commit -m "feat: initial setup of pc4"
 ```
 
 Sin embargo dentro del devcontainer no se puede commitear directamente, pues no encuentra la carpeta .git; por ello comiteo desde la terminal del host.
+
+![alt text](image-5.png)
+
+Nota: mis áliases principales para git que usé son:
+```
+alias st="git status"
+alias aa="git add ."
+alias ci="git commit -m"
+```
+
+Observación: las imágenes del readme se tendrán que refactorizar para que estén en una sola carpeta images/
+Esto ser hará al finalizar el desarrollo de los proyectos.
+
+
+## Docker
+Lo concerniente a docker estará en este archivo.
+
+Creo también docker-compose.override.yml para simular los fallos entre red.
+
+Opté usar por defecto python:3.12-slim para los contenedores, ya que es la versión más reciente y de ser ligera.
+
+Para product_catalog expuse el puerto 3001 y para user_management expuse el puerto 3002.
+
+![alt text](image-6.png)
+
+Ojo: de momento no estoy ejecutando los tests. Lo haré cuando se implementen.
+
+
+## Empezamos con los proyectos
+A partir de ahora, cada proyecto tiene su propio NOTES.md; que detallará cómo usé SOLID en cada módulo.
