@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+# poniendo errores a propósito para ver el error
+  product-catalog:
+    build: ./product_cataloggg
+    ports:
+      - "3001:3001"
+    environment:
+      - USER_SERVICE_URL=http://user-management:3004
+
+  user-management:
+    build: ./user_managementt
+    ports:
+      - "3002:3004"
