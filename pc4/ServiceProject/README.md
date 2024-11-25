@@ -58,5 +58,14 @@ Para product_catalog expuse el puerto 3001 y para user_management expuse el puer
 Ojo: de momento no estoy ejecutando los tests. Lo haré cuando se implementen.
 
 
+Cuando se usa el docker-compose.override.yml, se ve que hay errores cuando cambias las rutas y no deja levantar los contenedores.
+![alt text](image-7.png)
+
+Por otro lado, cuando se usa el docker-compose.yml, no hay errores.
+
+![alt text](image-8.png)
+
 ## Empezamos con los proyectos
 A partir de ahora, cada proyecto tiene su propio NOTES.md; que detallará cómo usé SOLID en cada módulo.
+
+No tuve errores en ninguno de los proyectos y cumplí con los tests; pero no tuve tiempo de resolver las preguntas.
