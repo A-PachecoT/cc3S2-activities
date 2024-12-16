@@ -1,0 +1,7 @@
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    command: python -m pytest --cov=src tests/

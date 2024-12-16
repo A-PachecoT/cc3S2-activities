@@ -120,5 +120,11 @@ Successfully built a8c26eaa1948
 Successfully tagged bfs-invertido:latest
 ```
 
-# Ejercicio 2: Estructura de datos persistente con árbol binario de segmentos "multi-version"
+Adicionalmente, hice un [compose.yml](compose.yml) para ejecutar los tests con coverage.
 
+Para ejecutar los tests con coverage:
+```bash
+docker compose up --build
+```
+
+![alt text](images/image-7.png)
