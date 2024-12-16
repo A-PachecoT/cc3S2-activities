@@ -128,3 +128,31 @@ docker compose up --build
 ```
 
 ![alt text](images/image-7.png)
+
+## Cumplimiento de Principios SOLID
+
+### Single Responsibility Principle (SRP)
+- La clase `Node` solo maneja la información de un nodo y sus conexiones
+- `Graph` se encarga exclusivamente de la estructura del grafo
+- `BFSInvertido` implementa únicamente la lógica del algoritmo de búsqueda
+- `HeuristicaConexion` se dedica solo a evaluar las condiciones de conexión
+
+### Open/Closed Principle (OCP)
+- El diseño permite agregar nuevas heurísticas sin modificar el BFS
+- Se pueden implementar diferentes estrategias de búsqueda extendiendo la base
+- La estructura del grafo está abierta a extensión para nuevos tipos de nodos
+
+### Liskov Substitution Principle (LSP)
+- Los nodos son intercambiables independientemente de su carga o conexiones
+- La heurística funciona consistentemente para cualquier tipo de nodo
+- Las implementaciones derivadas mantienen el comportamiento base del grafo
+
+### Interface Segregation Principle (ISP)
+- Separación clara entre la interfaz de búsqueda y la de evaluación heurística
+- Los clientes pueden usar el BFS sin depender de la heurística
+- La implementación de carga está separada de la lógica de ruteo
+
+### Dependency Inversion Principle (DIP)
+- El algoritmo BFS depende de abstracciones (interfaces de nodo y grafo)
+- La heurística está desacoplada de la implementación específica del grafo
+- El sistema de carga puede modificarse sin afectar la lógica de búsqueda

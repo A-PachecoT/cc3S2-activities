@@ -93,3 +93,31 @@ docker compose up --build
 ```
 
 ![alt text](images/image-5.png)
+
+## Cumplimiento de Principios SOLID
+
+### Single Responsibility Principle (SRP)
+- La clase `Node` solo se encarga de la gestión de nodos individuales
+- `PersistentSegmentTree` maneja la lógica del árbol de segmentos
+- `VersionManager` se dedica exclusivamente a la gestión de versiones
+- Cada clase tiene una única razón para cambiar
+
+### Open/Closed Principle (OCP)
+- La estructura del árbol permite extender funcionalidad sin modificar el código existente
+- Se pueden agregar nuevas operaciones de consulta implementando nuevos métodos
+- El sistema de versiones está abierto a extensión para diferentes tipos de metadatos
+
+### Liskov Substitution Principle (LSP)
+- Las versiones del árbol son intercambiables en las consultas
+- Cada versión mantiene el contrato de la estructura de datos
+- Las operaciones funcionan consistentemente en cualquier versión
+
+### Interface Segregation Principle (ISP)
+- Separación clara entre la interfaz de consulta y la de actualización
+- Los clientes pueden usar solo las operaciones que necesitan
+- No hay dependencias innecesarias entre los componentes
+
+### Dependency Inversion Principle (DIP)
+- El árbol de segmentos depende de abstracciones (nodos) no de implementaciones concretas
+- La gestión de versiones está desacoplada de la implementación del árbol
+- Se facilita el testing y la modificación de componentes
